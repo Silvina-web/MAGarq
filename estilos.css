@@ -1,0 +1,13 @@
+.Body {
+  background-color: black;
+}
+
+.logo-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+.logo-index img {
+  width: 40vw;
+}/*# sourceMappingURL=estilos.css.map */
