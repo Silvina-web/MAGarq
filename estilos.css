@@ -1,3 +1,11 @@
+.body-sebastopol {
+  background-color: black;
+}
+
+.titulo-sebastopol h2 {
+  color: aliceblue;
+}
+
 .Body {
   background-color: black;
 }
@@ -6,6 +14,7 @@
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
+/* LOGO DE LA HOME */
 .logo-index {
   display: flex;
   justify-content: center;
