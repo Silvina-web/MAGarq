@@ -16,9 +16,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8rem;
+    margin-top: 7rem;
    img {
     width: 40vw;
-   
+        }
+
+          @media screen and (max-width:600px){
+                   img{
+                          width: 80vw;
+                          margin-top: 5rem;
+                          }
+    
 }
 }
