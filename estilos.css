@@ -91,28 +91,32 @@
 }
 
 /* carousel planimetria */
-.carousel-fade {
+.fotos-planimetria {
+  outline: 5px solid yellow;
+}
+.fotos-planimetria .carousel-fade {
   outline: 5px solid red;
 }
-.carousel-fade .carousel-inner {
+.fotos-planimetria .carousel-fade .carousel-inner {
   outline: 5px solid 192;
 }
-.carousel-fade .carousel-inner .carousel-item {
+.fotos-planimetria .carousel-fade .carousel-inner .carousel-item {
   outline: 3px solid pink;
 }
-.carousel-fade .carousel-inner .carousel-item img {
-  width: 60vw;
+.fotos-planimetria .carousel-fade .carousel-inner .carousel-item img {
+  width: 50vw;
   outline: 5px solid brown;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* Carousel sebastopol */
-.carousel {
+.fotos-edificio .carousel {
   outline: 5px solid green;
 }
-.carousel .carousel-inner .carousel-item img {
-  width: 40vw;
+.fotos-edificio .carousel .carousel-inner .carousel-item img {
+  outline: 2px solid red;
+  height: 100vh;
   margin-left: auto;
   margin-right: auto;
 }
