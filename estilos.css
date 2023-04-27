@@ -116,7 +116,7 @@
 }
 .fotos-edificio .carousel .carousel-inner .carousel-item img {
   outline: 2px solid red;
-  height: 100vh;
+  height: 90vh;
   margin-left: auto;
   margin-right: auto;
 }
