@@ -20,7 +20,7 @@
 
 
 .container-sebastopol{
-   outline: 5px solid red;
+  
     width: 70vw;
     margin: auto;
     margin-top: 5rem;
@@ -47,7 +47,7 @@
              } /* termina container fotos2 */
     
     .container-sebasto-texto{
-         outline: 5px solid blue;
+        
          margin-top: 2rem;
          display: flex;
          flex-direction: row;
@@ -56,15 +56,19 @@
          line-height: 29px;
 
          .Texto1{
-                border: 1px solid grey;
+               
                 color: aliceblue;
                 width: 20vw;
+                margin-top: 2rem;
+                padding-top: 10rem;
+             
                 
                   }
          .Texto2{
                 color: aliceblue;
                 width: 40vw;
-                border: 1px solid grey;
+               
+                margin-top: 2rem;
             }
             @media screen and (max-width:600px) {
                 display: flex;
@@ -102,16 +106,16 @@
     }
 /* carousel planimetria */
 .fotos-planimetria{
-    outline: 5px solid yellow;
+   
     .carousel-fade{
-        outline: 5px solid red;
+       
             .carousel-inner{
-                 outline: 5px solid blue($color: #2c1cc0);
+                
                    .carousel-item{
-                         outline: 3px solid pink;
+                        
                    img{
                           width: 50vw;
-                          outline: 5px solid brown;
+                          
                           margin-left: auto;
                          margin-right: auto;
                 }
@@ -121,7 +125,7 @@
 
     @media screen and (max-width:600px) {
          .carousel-fade{
-            outline: 5px solid yellow;
+            
             .carousel-inner{
                 .carousel-item{
                     img{
@@ -138,12 +142,12 @@
     /* Carousel sebastopol */
 .fotos-edificio{
     .carousel{
-        outline: 5px solid green;
+       
 
         .carousel-inner{
             .carousel-item{
                 img{
-                    outline: 2px solid red;
+                    
                    height: 90vh;
                     margin-left: auto;
                     margin-right: auto;
@@ -160,12 +164,12 @@
     }
     @media screen and (max-width:600px){
         .carousel{
-            outline: 5px solid blue;
+           
             .carousel-inner{
                 .carousel-item{
                     img{
                         
-                        height: 30vh;
+                        height: 50vh;
                     }
                 }
             }
