@@ -118,6 +118,21 @@
             }
         }
     }
+
+    @media screen and (max-width:600px) {
+         .carousel-fade{
+            outline: 5px solid yellow;
+            .carousel-inner{
+                .carousel-item{
+                    img{
+                        width: 70vw;
+                    }
+                }
+            }
+        }
+
+        
+    }
 }
 
     /* Carousel sebastopol */
@@ -143,7 +158,20 @@
         }
 
     }
+    @media screen and (max-width:600px){
+        .carousel{
+            outline: 5px solid blue;
+            .carousel-inner{
+                .carousel-item{
+                    img{
+                        
+                        height: 30vh;
+                    }
+                }
+            }
+        }
 
+    }
 
     }
 
