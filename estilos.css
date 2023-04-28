@@ -128,13 +128,14 @@
   }
 }
 
+/* container1 */
 .texto-fotoHangar {
-  outline: 5px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 90vw;
   margin: auto;
+  padding: 2px;
 }
 .texto-fotoHangar .textoHangar {
   color: aliceblue;
@@ -144,13 +145,14 @@
   width: 40vw;
 }
 
+/* continer2 */
 .fotoapaisada {
   width: 90vw;
-  outline: 5px solid pink;
   margin: auto;
 }
 .fotoapaisada img {
   width: 90vw;
+  padding: 2px;
 }
 
 .fotosHangarH {
@@ -163,24 +165,11 @@
 }
 .fotosHangarH img {
   width: 45vw;
-  padding: 1px;
+  padding: 2px;
 }
 
-.fotos-planimetria-Hangar {
-  outline: 3px solid red;
-}
-.fotos-planimetria-Hangar .carousel-fade {
-  outline: 5px solid red;
-}
-.fotos-planimetria-Hangar .carousel-fade .carousel-inner {
-  outline: 5px solid 192;
-}
-.fotos-planimetria-Hangar .carousel-fade .carousel-inner .carousel-item {
-  outline: 3px solid pink;
-}
 .fotos-planimetria-Hangar .carousel-fade .carousel-inner .carousel-item img {
   width: 70vw;
-  outline: 5px solid brown;
   margin-left: auto;
   margin-right: auto;
 }
