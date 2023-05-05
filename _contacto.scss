@@ -40,11 +40,17 @@ align-items: center;
     }
    }
 
-@media screen and (max-width: 550px)  {
+@media screen and (max-width: 500px)  {
     width: 80vw;
     height: 90vh;
+   flex-direction: column;
+
+   iframe{
+    outline: 5px solid red;
+    width: 80vw;
    
-    flex-direction: column;
+   
+   }
    
 
     

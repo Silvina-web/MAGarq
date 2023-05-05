@@ -219,11 +219,15 @@
   padding: 0.1rem;
   margin: 1rem;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
   .contacto {
     width: 80vw;
     height: 90vh;
     flex-direction: column;
+  }
+  .contacto iframe {
+    outline: 5px solid red;
+    width: 80vw;
   }
 }
 
