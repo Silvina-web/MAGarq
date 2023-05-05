@@ -57,10 +57,14 @@
   width: 20vw;
   margin-top: 2rem;
   padding-top: 10rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
 }
 .container-sebastopol .container-sebasto-texto .Texto2 {
   color: aliceblue;
   width: 40vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
   margin-top: 2rem;
 }
 @media screen and (max-width: 600px) {
@@ -140,9 +144,23 @@
 .texto-fotoHangar .textoHangar {
   color: aliceblue;
   width: 40vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
 }
 .texto-fotoHangar .fotoverticalH img {
   width: 40vw;
+}
+@media screen and (max-width: 985px) {
+  .texto-fotoHangar {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .texto-fotoHangar .textoHangar {
+    width: 90vw;
+  }
+  .texto-fotoHangar .fotoverticalH img {
+    width: 90vw;
+  }
 }
 
 /* continer2 */
@@ -172,6 +190,41 @@
   width: 70vw;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contacto {
+  width: 80%;
+  height: 50vh;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+}
+.contacto .direccion {
+  width: 25vw;
+  color: antiquewhite;
+}
+.contacto .direccion a img {
+  background-color: rgb(157, 158, 158);
+  border-radius: 100px;
+}
+.contacto .redes a img {
+  border-radius: 50px;
+  background-color: rgb(177, 171, 171);
+  align-items: end;
+  padding: 0.1rem;
+  margin: 1rem;
+}
+@media screen and (max-width: 550px) {
+  .contacto {
+    width: 80vw;
+    height: 90vh;
+    flex-direction: column;
+  }
 }
 
 .Body {
