@@ -183,7 +183,7 @@
     height: 30vh;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item img {
-    height: 26vh;
+    height: 25vh;
   }
 }
 @media screen and (max-width: 376px) {
@@ -195,7 +195,7 @@
     height: 30vh;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item img {
-    height: 21vh;
+    height: 25vh;
   }
 }
 @media screen and (max-width: 361px) {
