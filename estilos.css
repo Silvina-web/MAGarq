@@ -198,7 +198,7 @@
     height: 21vh;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
   .fotos-edificio .carousel .carousel-indicators button {
     display: none;
   }
@@ -207,7 +207,7 @@
     height: 30vh;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item img {
-    height: 19vh;
+    height: 26vh;
   }
 }
 
