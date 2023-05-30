@@ -134,12 +134,21 @@
 }
 
 /* Carousel sebastopol */
+.fotos-edificio .carousel .carousel-inner .carousel-item .verticales {
+  outline: 5px solid red;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%);
+}
 .fotos-edificio .carousel .carousel-inner .carousel-item img {
   height: 95vh;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 850px) {
+  .fotos-edificio .carousel .carousel-inner .carousel-item .verticales {
+    height: 99vh;
+  }
   .fotos-edificio .carousel .carousel-inner .carousel-item img {
     height: 45vh;
   }
@@ -147,6 +156,9 @@
 @media screen and (max-width: 700px) {
   .fotos-edificio .carousel .carousel-indicators button {
     display: none;
+  }
+  .fotos-edificio .carousel .carousel-inner .carousel-item .verticales {
+    height: 75vh;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item img {
     height: 35vh;
@@ -156,6 +168,9 @@
   .fotos-edificio .carousel .carousel-indicators button {
     display: none;
   }
+  .fotos-edificio .carousel .carousel-inner .carousel-item .verticales {
+    height: 60vh;
+  }
   .fotos-edificio .carousel .carousel-inner .carousel-item img {
     height: 22vh;
   }
@@ -163,6 +178,9 @@
 @media screen and (max-width: 376px) {
   .fotos-edificio .carousel .carousel-indicators button {
     display: none;
+  }
+  .fotos-edificio .carousel .carousel-inner .carousel-item .verticales {
+    height: 60vh;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item img {
     height: 21vh;
