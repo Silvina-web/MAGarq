@@ -224,6 +224,12 @@
     }
     @media screen and (max-width:700px){
         .carousel{
+
+            .carousel-indicators{
+                button{
+                    display: none;
+                }
+            }
            
             .carousel-inner{
                 .carousel-item{
@@ -239,12 +245,17 @@
     }
     @media screen and (max-width:480px){
         .carousel{
+            .carousel-indicators{
+                button{
+                    display: none;
+                }
+            }
            
             .carousel-inner{
                 .carousel-item{
                     img{
                         
-                      height: 26vh;
+                      height: 22vh;
                        
                     }
                 }
@@ -252,15 +263,41 @@
         }
 
     }
-
-    @media screen and (max-width:390px){
+    @media screen and (max-width:376px){
         .carousel{
+
+            .carousel-indicators{
+                button{
+                    display: none;
+                }
+            }
+           
+            .carousel-inner{
+                .carousel-item{
+                    img{
+                      
+                        height: 21vh;
+                       
+                    }
+                }
+            }
+        }
+
+    }
+    @media screen and (max-width:360px){
+        .carousel{
+
+            .carousel-indicators{
+                button{
+                    display: none;
+                }
+            }
            
             .carousel-inner{
                 .carousel-item{
                     img{
                         
-                      height: 21vh;
+                      height: 25vh;
                        
                     }
                 }
