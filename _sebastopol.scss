@@ -193,7 +193,7 @@
                 
                 img{
                     
-                    height: 90vh; 
+                    height: 95vh; 
                     margin-left: auto;
                     margin-right: auto;
                 
@@ -222,7 +222,7 @@
         }
 
     }
-    @media screen and (max-width:850px){
+    @media screen and (max-width:700px){
         .carousel{
            
             .carousel-inner{
@@ -244,6 +244,22 @@
                 .carousel-item{
                     img{
                         
+                      height: 26vh;
+                       
+                    }
+                }
+            }
+        }
+
+    }
+
+    @media screen and (max-width:390px){
+        .carousel{
+           
+            .carousel-inner{
+                .carousel-item{
+                    img{
+                        
                       height: 21vh;
                        
                     }
@@ -252,6 +268,7 @@
         }
 
     }
+
 
     }
 
