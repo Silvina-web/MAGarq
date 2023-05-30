@@ -223,7 +223,8 @@
             .carousel-inner{
                 .carousel-item{
                     .verticales{
-                       height: 99vh;
+                        outline: 5px solid salmon;
+                       height: 40vh;
                     }
                     img{
                     
@@ -235,6 +236,7 @@
         }
 
     }
+    /* ------------------------ */
     @media screen and (max-width:700px){
         .carousel{
 
@@ -247,7 +249,8 @@
             .carousel-inner{
                 .carousel-item{
                     .verticales{
-                        height: 75vh;
+                        outline: 2px solid blue;
+                        height: 40vh;
                     }
                     img{
                         
@@ -259,6 +262,7 @@
         }
 
     }
+    /* --------------------------------------- */
     @media screen and (max-width:480px){
         .carousel{
             .carousel-indicators{
@@ -271,7 +275,8 @@
                 .carousel-item{
 
                 .verticales{
-                    height: 60vh;
+                    outline: 2px solid green;
+                    height: 30vh;
                 }
                     img{
                         
@@ -283,6 +288,7 @@
         }
 
     }
+    /* --------------------------------------- */
     @media screen and (max-width:376px){
         .carousel{
 
@@ -295,7 +301,8 @@
             .carousel-inner{
                 .carousel-item{
                     .verticales{
-                        height: 60vh;
+                        outline: 2px solid rgb(175, 12, 126);
+                        height: 30vh;
                     }
                     img{
                       
@@ -307,6 +314,7 @@
         }
 
     }
+    /* ---------------------------------------- */
     @media screen and (max-width:360px){
         .carousel{
 
@@ -318,6 +326,11 @@
            
             .carousel-inner{
                 .carousel-item{
+
+                    .verticales{
+                        outline: 2px solid violet;
+                        height: 30vh;
+                    }
                     img{
                         
                       height: 25vh;

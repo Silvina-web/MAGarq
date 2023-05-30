@@ -134,6 +134,12 @@
 }
 
 /* Carousel sebastopol */
+.fotos-edificio {
+  /* ------------------------ */
+  /* --------------------------------------- */
+  /* --------------------------------------- */
+  /* ---------------------------------------- */
+}
 .fotos-edificio .carousel .carousel-inner .carousel-item .verticales {
   outline: 5px solid red;
   margin-left: 50%;
@@ -147,7 +153,8 @@
 }
 @media screen and (max-width: 850px) {
   .fotos-edificio .carousel .carousel-inner .carousel-item .verticales {
-    height: 99vh;
+    outline: 5px solid salmon;
+    height: 40vh;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item img {
     height: 45vh;
@@ -158,7 +165,8 @@
     display: none;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item .verticales {
-    height: 75vh;
+    outline: 2px solid blue;
+    height: 40vh;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item img {
     height: 35vh;
@@ -169,7 +177,8 @@
     display: none;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item .verticales {
-    height: 60vh;
+    outline: 2px solid green;
+    height: 30vh;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item img {
     height: 22vh;
@@ -180,7 +189,8 @@
     display: none;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item .verticales {
-    height: 60vh;
+    outline: 2px solid rgb(175, 12, 126);
+    height: 30vh;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item img {
     height: 21vh;
@@ -189,6 +199,10 @@
 @media screen and (max-width: 360px) {
   .fotos-edificio .carousel .carousel-indicators button {
     display: none;
+  }
+  .fotos-edificio .carousel .carousel-inner .carousel-item .verticales {
+    outline: 2px solid violet;
+    height: 30vh;
   }
   .fotos-edificio .carousel .carousel-inner .carousel-item img {
     height: 25vh;
