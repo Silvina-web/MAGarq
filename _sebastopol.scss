@@ -17,22 +17,7 @@
     }
 }
 
-/* .texto-premio{
-    margin-top: 2rem;
-       h5{
-        color: antiquewhite;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 2;
-        width: 70vw;
-        margin: auto;
-        font-size: 15px;
 
-        a{
-            color: rgba(222, 224, 228, 0.596);
-            text-decoration: none;
-        }
-       }
-} */
 
 
 
@@ -197,15 +182,18 @@
 }
 
     /* Carousel sebastopol */
-.fotos-edificio{
+.fotos-edificio{ 
+   
     .carousel{
-       
+    
 
         .carousel-inner{
+            
             .carousel-item{
+                
                 img{
                     
-                   height: 90vh;
+                    height: 90vh; 
                     margin-left: auto;
                     margin-right: auto;
                 
@@ -219,14 +207,45 @@
         }
 
     }
-    @media screen and (max-width:600px){
+    @media screen and (max-width:850px){
         .carousel{
            
             .carousel-inner{
                 .carousel-item{
                     img{
                         
-                        height: 50vh;
+                      height: 45vh;
+                       
+                    }
+                }
+            }
+        }
+
+    }
+    @media screen and (max-width:850px){
+        .carousel{
+           
+            .carousel-inner{
+                .carousel-item{
+                    img{
+                        
+                      height: 35vh;
+                       
+                    }
+                }
+            }
+        }
+
+    }
+    @media screen and (max-width:480px){
+        .carousel{
+           
+            .carousel-inner{
+                .carousel-item{
+                    img{
+                        
+                      height: 21vh;
+                       
                     }
                 }
             }
