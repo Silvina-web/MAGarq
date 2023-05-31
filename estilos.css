@@ -241,6 +241,16 @@
   margin-right: auto;
 }
 
+.body-sebastopol {
+  position: relative;
+  height: 85vh;
+}
+@media screen and (max-width: 500px) {
+  .body-sebastopol {
+    height: 100vh;
+  }
+}
+
 .contacto {
   width: 80%;
   height: 50vh;
@@ -299,6 +309,19 @@
   .contacto iframe {
     width: 80vw;
   }
+}
+
+.vecinas {
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+}
+.vecinas p {
+  color: rgb(53, 52, 52);
+}
+.vecinas p a {
+  color: rgb(53, 52, 52);
+  text-decoration: none;
 }
 
 /* El titulo de las secciones tiene el estilo de titulo hangar */
