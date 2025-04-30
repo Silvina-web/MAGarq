@@ -420,6 +420,18 @@
   width: 40vw;
   margin-top: 2rem;
 }
+@media screen and (max-width: 600px) {
+  .textos-atelier {
+    display: flex;
+    flex-direction: column;
+  }
+  .textos-atelier .Texto1 {
+    width: 70vw;
+  }
+  .textos-atelier .Texto2 {
+    width: 70vw;
+  }
+}
 
 .Body {
   background-color: rgb(7, 7, 7);

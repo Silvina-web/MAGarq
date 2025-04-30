@@ -60,7 +60,19 @@
 
 
 
-  }              
+  }     
+  
+  @media screen and (max-width:600px) {
+    display: flex;
+    flex-direction: column;
+              .Texto1{
+                width: 70vw;
+              }
+              .Texto2{
+                width: 70vw;
+              }
+    
+  }
 
 
 }
