@@ -387,6 +387,16 @@
   }
 }
 
+.container-atelier {
+  width: 70vw;
+  margin: auto;
+  margin-top: 5rem;
+}
+.container-atelier .container-atelier-fotos1 img {
+  margin: auto;
+  margin: 1rem;
+}
+
 .Body {
   background-color: rgb(7, 7, 7);
 }
