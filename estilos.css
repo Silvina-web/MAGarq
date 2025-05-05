@@ -393,11 +393,24 @@
   margin-top: 5rem;
 }
 .container-atelier .container-atelier-fotos1 img {
-  margin: auto;
   margin: 1rem;
 }
-
-.textos-atelier {
+.container-atelier .container-atelier-fotos2 img {
+  width: 70vw;
+  margin: 1rem;
+}
+.container-atelier .container-atelier-fotos3 {
+  outline: 1px solid red;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  justify-content: space-between;
+}
+.container-atelier .container-atelier-fotos3 img {
+  width: 30vw;
+}
+.container-atelier .textos-atelier {
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
@@ -405,7 +418,7 @@
   word-spacing: 2px;
   line-height: 29px;
 }
-.textos-atelier .texto1-atelier {
+.container-atelier .textos-atelier .texto1-atelier {
   color: whitesmoke;
   width: 20vw;
   margin-top: 2rem;
@@ -413,7 +426,7 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 100;
 }
-.textos-atelier .texto2-atelier {
+.container-atelier .textos-atelier .texto2-atelier {
   color: whitesmoke;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 100;
@@ -421,22 +434,21 @@
   margin-top: 2rem;
 }
 @media screen and (max-width: 600px) {
-  .textos-atelier {
+  .container-atelier .textos-atelier {
     display: flex;
     flex-direction: column;
   }
-  .textos-atelier .Texto1 {
+  .container-atelier .textos-atelier .Texto1 {
     width: 80vw;
   }
-  .textos-atelier .Texto2 {
+  .container-atelier .textos-atelier .Texto2 {
     width: 80vw;
   }
 }
-
-.texto-atelier-idiomas {
+.container-atelier .texto-atelier-idiomas {
   margin-top: 4rem;
 }
-.texto-atelier-idiomas .idioma {
+.container-atelier .texto-atelier-idiomas .idioma {
   color: whitesmoke;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 100;

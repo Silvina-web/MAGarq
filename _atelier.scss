@@ -27,11 +27,35 @@
 
          .container-atelier-fotos1{
             img{
-                margin: auto;
-                margin: 1rem;
+                 margin: 1rem;
             }
          }
-}
+
+
+         .container-atelier-fotos2{
+          
+          img{
+            width: 70vw;
+            margin: 1rem;
+
+          }
+
+         }
+
+         .container-atelier-fotos3{
+          outline: 1px solid red;
+           margin-left: 1rem;
+
+          display: flex;
+          flex-direction: row;
+          width: 70vw;
+          justify-content: space-between;
+
+          img{
+            width: 30vw;
+          }
+         }
+
 
 
 .textos-atelier {
@@ -89,6 +113,10 @@
   }
 
 }
+
+
+
     
     
 
+}
