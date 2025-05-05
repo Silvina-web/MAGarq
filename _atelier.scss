@@ -27,7 +27,7 @@
 
          .container-atelier-fotos1{
             img{
-                 margin: 1rem;
+                 margin-top: 1rem;
             }
          }
 
@@ -36,7 +36,7 @@
           
           img{
             width: 70vw;
-            margin: 1rem;
+            margin-top: 1rem;
 
           }
 
@@ -44,7 +44,7 @@
 
          .container-atelier-fotos3{
           outline: 1px solid red;
-           margin-left: 1rem;
+           margin-top: 1rem;
 
           display: flex;
           flex-direction: row;
@@ -53,6 +53,16 @@
 
           img{
             width: 30vw;
+          }
+         }
+
+         .container-atelier-fotos4{
+
+          outline: 1px solid blue;
+
+          img{
+            width: 70vw;
+         margin-top: 1rem;
           }
          }
 
