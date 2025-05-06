@@ -417,6 +417,16 @@
   width: 70vw;
   margin-top: 1rem;
 }
+.container-atelier .container-atelier-fotos5 {
+  outline: 1px solid rgb(82, 247, 6);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-atelier .container-atelier-fotos5 img {
+  width: 22vw;
+  margin-top: 1rem;
+}
 .container-atelier .textos-atelier {
   margin-top: 2rem;
   display: flex;
@@ -440,15 +450,15 @@
   width: 40vw;
   margin-top: 2rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .container-atelier .textos-atelier {
     display: flex;
     flex-direction: column;
   }
-  .container-atelier .textos-atelier .Texto1 {
+  .container-atelier .textos-atelier .texto1-atelier {
     width: 80vw;
   }
-  .container-atelier .textos-atelier .Texto2 {
+  .container-atelier .textos-atelier .texto2-atelier {
     width: 80vw;
   }
 }
