@@ -121,7 +121,7 @@
   margin-top: 1rem;
 }
 
-/* carousel planimetria */
+/* carousel planimetria de sebastopol y atelier */
 .fotos-planimetria .carousel-fade .carousel-inner .carousel-item img {
   width: 70vw;
   margin-left: auto;
@@ -133,7 +133,7 @@
   }
 }
 
-/* Carousel sebastopol */
+/* Carousel sebastopol es el mismo que carrousel atelier  */
 .fotos-edificio {
   /* -------MEDIA QUERY----------------------- */
 }
