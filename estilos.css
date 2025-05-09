@@ -414,7 +414,6 @@
   margin-top: 1rem;
 }
 .container-atelier .container-atelier-fotos3 {
-  outline: 1px solid red;
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
@@ -424,15 +423,11 @@
 .container-atelier .container-atelier-fotos3 img {
   width: 30vw;
 }
-.container-atelier .container-atelier-fotos4 {
-  outline: 1px solid blue;
-}
 .container-atelier .container-atelier-fotos4 img {
   width: 70vw;
   margin-top: 1rem;
 }
 .container-atelier .container-atelier-fotos5 {
-  outline: 1px solid rgb(82, 247, 6);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
